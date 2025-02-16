@@ -8,8 +8,7 @@ app = FastAPI()
 # Configure CORS
 origins = [
     "http://localhost:5173",
-    "https://your-frontend-domain.vercel.app",
-    "https://your-frontend-domain.netlify.app",
+    "https://digital-white-board-two.vercel.app/",
 ]
 
 app.add_middleware(
