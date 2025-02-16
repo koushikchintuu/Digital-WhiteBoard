@@ -20,7 +20,7 @@ The Digital Whiteboard is a real-time collaborative drawing application built wi
 
 ### Backend:
 - FastAPI
-- WebSockets
+- WebSockets (Socket.io)
 
 ## Installation and Setup
 
