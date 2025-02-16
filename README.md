@@ -3,7 +3,11 @@
 ## Overview
 The Digital Whiteboard is a real-time collaborative drawing application built with React (Vite) for the frontend and FastAPI for the backend. It allows multiple users to draw, erase, undo/redo, and save their drawings while syncing in real-time using WebSockets.
 
-## Live-Link : https://digital-white-board-two.vercel.app/ (As of now problem with backend(issue in render server))
+## Live Demo (Temporary Issues)
+🔗 [Digital Whiteboard](https://digital-white-board-two.vercel.app/)  
+
+⚠ **Note:** The backend hosted on Render is facing temporary issues. The application may not function as expected until the issue is resolved.
+
 
 ## Features
 - **Real-time drawing** with WebSocket communication
