@@ -1,0 +1,4 @@
+fastapi==0.95.0
+uvicorn==0.22.0
+python-socketio==5.7.2
+aiohttp==3.8.1  # Required for Socket.IO
