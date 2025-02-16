@@ -14,7 +14,7 @@ const Whiteboard = ({ roomId }) => {
     const [currentIndex, setCurrentIndex] = useState(-1)
 
     useEffect(() => {
-        const socket = io('http://localhost:8000', {
+        const socket = io(import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000', {
             transports: ['websocket'],
             reconnection: true,
         })
