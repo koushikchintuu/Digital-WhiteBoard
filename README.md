@@ -1,4 +1,3 @@
-# Digital-WhiteBoard
 # Digital Whiteboard
 
 ## Overview
@@ -22,14 +21,12 @@ The Digital Whiteboard is a real-time collaborative drawing application built wi
 ### Backend:
 - FastAPI
 - WebSockets
-- MongoDB (for storing drawing states)
 
 ## Installation and Setup
 
 ### Prerequisites
 - Node.js (for running the frontend)
 - Python (for running the backend)
-- MongoDB (if persistence is needed)
 
 ### Backend Setup
 1. Navigate to the backend directory:
@@ -39,7 +36,7 @@ The Digital Whiteboard is a real-time collaborative drawing application built wi
 2. Create a virtual environment (optional but recommended):
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows use venv\Scripts\activate
+   On Mac source venv/bin/activate  And On Windows use venv\Scripts\activate
    ```
 3. Install dependencies:
    ```sh
@@ -76,7 +73,6 @@ Digital-Whiteboard/
 │── backend/
 │   ├── main.py              # FastAPI server with WebSockets
 │   ├── requirements.txt     # Backend dependencies
-│   ├── ... (other backend files)
 │
 │── frontend/
 │   ├── src/
@@ -85,8 +81,6 @@ Digital-Whiteboard/
 │   │   ├── styles/
 │   │   │   ├── Whiteboard.css   # Styling for the whiteboard
 │   ├── package.json        # Frontend dependencies
-│   ├── vite.config.js      # Vite configuration
-│   ├── ... (other frontend files)
 │
 │── README.md               # Project documentation
 ```
