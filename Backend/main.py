@@ -22,7 +22,7 @@ app.add_middleware(
 # Initialize Socket.IO
 sio = socketio.AsyncServer(
     async_mode='asgi',
-    cors_allowed_origins=origins,
+    cors_allowed_origins="*",
     logger=True,
     engineio_logger=True
 )
