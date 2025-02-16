@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI
 import socketio
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,9 +7,10 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 # Configure CORS
+# Allow both local and deployed frontend origins
 origins = [
-    "http://localhost:5173",
-    "https://digital-white-board-two.vercel.app/",
+    "http://localhost:5173",  # Local frontend
+    os.getenv("FRONTEND_URL", "https://your-frontend.vercel.app")  # Deployed frontend
 ]
 
 app.add_middleware(
