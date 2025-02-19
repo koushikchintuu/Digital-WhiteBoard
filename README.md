@@ -67,7 +67,7 @@ The Digital Whiteboard is a real-time collaborative drawing application built wi
    npm run dev
    ```
 
-## Usage
+## Usage : Open in two different browser's 
 1. Open the frontend application in your browser.
 2. Join a room by entering a room ID.
 3. Start drawing and collaborating with other users in real-time.
